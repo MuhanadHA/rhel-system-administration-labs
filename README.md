@@ -26,6 +26,18 @@ My goal is to strengthen my Linux administration skills through practical experi
 - Podman containers
 - Bash scripting and automation
 
+
+## Completed Labs
+
+### SELinux & Web Server Administration
+
+1. [Apache Custom DocumentRoot and Port Configuration](selinux/apache-custom-documentroot/README.md)
+   - Configured Apache with a custom document root (`/webdata`) and TCP port `8090`.
+   - Applied persistent SELinux file contexts and permitted the custom HTTP port.
+   - Configured firewall access and investigated an Apache startup error.
+   - Verified service availability and configuration persistence after reboot.
+  
+
 ## Repository Status
 
 Work in progress. Labs and documentation will be added progressively.
