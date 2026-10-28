@@ -39,7 +39,7 @@ My goal is to strengthen my Linux administration skills through practical experi
 
  ### User Management & Access Control
 
-2. [User Management, Permissions, ACLs & Restricted Sudo](user-management/permissions-and-acls/README.md)
+2. [User Management, Permissions, ACLs & Restricted Sudo](lab2/user-management/permissions-and-acls/README.md)
    - Configured Linux users, groups, and password aging policies.
    - Implemented shared directory permissions, setgid, and default ACL inheritance.
    - Configured restricted passwordless sudo access.
