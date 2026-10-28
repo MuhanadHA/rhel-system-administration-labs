@@ -36,7 +36,14 @@ My goal is to strengthen my Linux administration skills through practical experi
    - Applied persistent SELinux file contexts and permitted the custom HTTP port.
    - Configured firewall access and investigated an Apache startup error.
    - Verified service availability and configuration persistence after reboot.
-  
+
+ ### User Management & Access Control
+
+2. [User Management, Permissions, ACLs & Restricted Sudo](user-management/permissions-and-acls/README.md)
+   - Configured Linux users, groups, and password aging policies.
+   - Implemented shared directory permissions, setgid, and default ACL inheritance.
+   - Configured restricted passwordless sudo access.
+   - Troubleshot ACL mask restrictions and verified permissions after reboot. 
 
 ## Repository Status
 
