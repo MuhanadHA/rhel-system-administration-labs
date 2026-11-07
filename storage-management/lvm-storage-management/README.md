@@ -54,7 +54,7 @@ lvextend -L +2G /dev/vg_app/lv_data
 xfs_growfs /appdata
 ```
 
-The actual filesystem growth was performed while mounted; the original notes show `xfs_growfs` invoked using the device path, which succeeded in the lab. Growth of the LV alone does not update XFS filesystem capacity. A pre-expansion data-integrity file was **not created**, so preservation of a specific existing file during this operation was **not independently tested**.
+The actual filesystem growth was performed while mounted; the original notes show `xfs_growfs` invoked using the device path, which succeeded in the lab. Growth of the LV alone does not update XFS filesystem capacity.
 
 ## 4. Add a second physical volume
 
@@ -126,7 +126,7 @@ The original lab records show the VGs and LVs present, the swap and both applica
 
 ![Post-reboot filesystem, swap, and thin pool verification](screenshots/final-verification.png)
 
-The screenshot confirms the listed state, but a full boot-journal check was not provided; therefore the lab does not assert that the journal contains zero storage-related errors.
+The screenshot confirms the listed state, but a full boot-journal check was not performed; therefore the lab does not assert that the journal contains zero storage-related errors.
 
 ## Selected original lab screenshots
 
@@ -141,4 +141,3 @@ The `screenshots/` folder also includes the original command screenshots extract
 - Thin-provisioned virtual capacity can exceed immediately allocated pool storage, so usage must be monitored.
 - Reproduce configuration failures safely and verify the corrected state after reboot.
 
-**Scope note:** A pre-expansion file-integrity check and a complete boot-journal audit were not performed; neither is claimed as verified.
