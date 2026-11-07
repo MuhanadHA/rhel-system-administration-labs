@@ -43,7 +43,19 @@ My goal is to strengthen my Linux administration skills through practical experi
    - Configured Linux users, groups, and password aging policies.
    - Implemented shared directory permissions, setgid, and default ACL inheritance.
    - Configured restricted passwordless sudo access.
-   - Troubleshot ACL mask restrictions and verified permissions after reboot. 
+   - Troubleshot ACL mask restrictions and verified permissions after reboot.
+
+
+### Storage Management
+
+3. [LVM Storage Management, XFS & Thin Provisioning](storage-management/lvm-storage-management/README.md)
+   - Configured physical volumes, volume groups, and logical volumes using LVM.
+   - Extended an XFS filesystem online from 6 GiB to 8 GiB.
+   - Expanded an existing volume group using an additional virtual disk.
+   - Configured persistent swap space and filesystem mounts.
+   - Implemented LVM thin provisioning with a 3 GiB pool and a 6 GiB virtual volume.
+   - Troubleshot persistent mounts and filesystem capacity discrepancies.
+   
 
 ## Repository Status
 
